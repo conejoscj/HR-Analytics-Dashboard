@@ -12,7 +12,7 @@ The data tracks individual employee profiles and their current status within the
 * **Source:** Kaggle Public Dataset
 * **Employee Profile:** Age, Gender, Education Field, and Education Level.
 * **Employment Details:** Job Role, Department, and Active/Inactive status.
-* **Sentiment Data:** Job Satisfaction Ratings (Scale of 1–4).
+* **Sentiment Data** Job Satisfaction Ratings (Scale of 1–4).
 
 **Entity Relationship Diagram (ERD):**
 
