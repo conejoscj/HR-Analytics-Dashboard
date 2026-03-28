@@ -1,5 +1,5 @@
 # Project Background & Overview
-High employee turnover is expensive and disruptive for any company. This project analyzes the workforce data of 1,470 employees to understand why people are leaving the organization. By looking at attrition (employees leaving) across departments, age groups, and education levels, HR leadership can create better strategies to keep their top talent and improve job satisfaction.
+High employee turnover is expensive and disruptive for any company. This project analyzes the workforce data of **1,470** employees to understand why people are leaving the organization. By looking at attrition (employees leaving) across departments, age groups, and education levels, HR leadership can create better strategies to keep their top talent and improve job satisfaction.
 
 **Key Business Questions:**
 * Which department and education field are experiencing the highest number of employees leaving?
@@ -19,7 +19,7 @@ The data tracks individual employee profiles and their current status within the
 ![Data Model](images/hr.datamodel.png)
 
 # Executive Summary
-The organization currently has 1,470 employees with an overall Attrition Rate of 16.12% (237 people have left). The R&D department accounts for over half of all attrition (56.12%). Most employees who leave are in the 25–34 age bracket, and a significant number come from a Life Sciences education background. While the average age is 37, the "Under 25" and "25–34" groups show the highest vulnerability to leaving.
+The organization currently has **1,470** employees with an overall **Attrition Rate of 16.12%** (237 people have left). The **R&D department** accounts for over half of all attrition (**56.12%**). Most employees who leave are in the **25–34** age bracket, and a significant number come from a **Life Sciences** education background. While the average age is **37**, the "Under 25" and "25–34" groups show the highest vulnerability to leaving.
 
 **High-Level Metrics**
 * **Overall Employees**: 1,470
@@ -35,23 +35,26 @@ The organization currently has 1,470 employees with an overall Attrition Rate of
 * The R&D department has the highest attrition with **133** employees leaving, followed by Sales (**92**).
 * R&D represents more than half of the total company turnover. HR needs to investigate if this is due to high-pressure environments or uncompetitive pay in technical roles.
 
-![Dashboard Overview](images/volumeanalysis.png)
+![Dashboard Overview](images/hr.departmentanalysis.png)
 
-### Demographic Equilibrium
-  * Unlike the April-only view, the consolidated data shows that the **20-29** and **30-39** age groups are almost identical in volume (~1,200 each). This suggests the ER is a primary care source for young adults in this category.
-![Dashboard Overview](images/demographic.png)
+### Age Group Analysis: High Turnover in Young Professionals
+  * The **25–34** age group has the highest number of departures (**112 employees**).
+  * This group makes up nearly **47%** of total attrition. Younger employees are likely leaving for better career growth opportunities elsewhere.
+![Dashboard Overview](images/hr.agegroup.png)
 
-### Referral Source Impact
-* While "None" (Walk-ins) is the largest group (**5.4K**), General Practice remains the most critical professional partner (**1.8K**).
+### Education Analysis: Life Sciences and Medical Fields
+* Employees with Life Sciences (**89**) and Medical (**63**) backgrounds are the most likely to leave.
+* There is a high demand for these skills in the market. The company may be losing specialized talent to competitors.
   
-![Dashboard Overview](images/referral.png)
+![Dashboard Overview](images/hr.educationanalysis.png)
 
-### Monthly Story (April 2023 Deep Dive)
-* When we filter down to April 2023, we see a "snapshot" of these problems. In April, the satisfaction was slightly higher (**5.30**) compared to the long-term average (**4.99**).
-* This suggests that as the year progressed, patient satisfaction actually **decreased**, highlighting an urgent need for service intervention.
+### Role & Satisfaction: Low Ratings in Laboratory and Sales
+* Laboratory Technicians and Sales Executives have some of the highest counts of "Level 1" (lowest) satisfaction scores.
+* These roles are high-stress. The data shows **56** Lab Techs gave the lowest satisfaction rating, which correlates with high attrition in the R&D department.
 
+![Dashboard Overview](images/hr.satisfactionanalysis.png)
 
 # Recommendations
-* **Resource Scaling**: Implement a permanent "Weekend Night Shift" increase. The consolidated data proves that Sunday/Monday early mornings are a permanent trend, not a fluke.
-* **Patient Experience Program**: Since the satisfaction score is trending downward (currently 4.99), the hospital should launch a "Fast-Track" program for low-acuity patients (the 50% not admitted) to get them out of the ER faster.
-* **Partner Expansion**: Since General Practice sends so many patients, create a "Priority Triage" for GP-referred patients to reward the use of professional referral channels and reduce walk-in congestion.
+* **R&D Retention Program**: Conduct "Stay Interviews" in the R&D department to understand why 56% of departures are happening there.
+* **Career Pathing for 25–34 Year Olds**: Since this group leaves the most, implement a clear 2-year promotion track to keep them engaged.
+* **Role-Specific Support**: Improve the working conditions for Laboratory Technicians and Sales Executives to raise their job satisfaction scores from Level 1 to Level 3.
