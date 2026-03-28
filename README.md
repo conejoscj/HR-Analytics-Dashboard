@@ -28,12 +28,12 @@ The organization currently has 1,470 employees with an overall Attrition Rate of
 * **Active Employees**: 1,233
 * **Average Age**: 37
 
-![Dashboard Overview](images/consolidatedview.png)
+![Dashboard Overview](images/hr.dashboard.png)
 
 # Insights Deep Dive
-### Volume Analysis
-* Sunday is consistently the busiest day of the week (**1,589 total patients**).
-* The most dangerous "overload" periods occur between **00:00 and 04:00 on Mondays and Sundays**, where volume is consistently at its highest.
+### Department Analysis: R&D as the Primary Attrition Driver
+* The R&D department has the highest attrition with **133** employees leaving, followed by Sales (**92**).
+* R&D represents more than half of the total company turnover. HR needs to investigate if this is due to high-pressure environments or uncompetitive pay in technical roles.
 
 ![Dashboard Overview](images/volumeanalysis.png)
 
