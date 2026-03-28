@@ -15,25 +15,20 @@ The data tracks individual employee profiles and their current status within the
 * **Sentiment Data:** Job Satisfaction Ratings (Scale of 1–4).
 
 **Entity Relationship Diagram (ERD):**
-![Data Model](images/datamodel.png)
+
+![Data Model](images/hr.datamodel.png)
 
 # Executive Summary
-Between April 2023 and October 2024, the ER processed **9,216 patients**. 
+The organization currently has 1,470 employees with an overall Attrition Rate of 16.12% (237 people have left). The R&D department accounts for over half of all attrition (56.12%). Most employees who leave are in the 25–34 age bracket, and a significant number come from a Life Sciences education background. While the average age is 37, the "Under 25" and "25–34" groups show the highest vulnerability to leaving.
 
-Long-term data shows a perfectly even **50/50** split between Admissions and Non-admissions. However, the satisfaction score has dipped below 5.00 **(4.99)**, indicating a systemic issue with patient experience. While 61.68% of patients are seen within the target time, the sheer volume on Sundays remains the primary operational bottleneck.
+**High-Level Metrics**
+* **Overall Employees**: 1,470
+* **Attrition**: 237
+* **Attrition Rate**: 16.12%
+* **Active Employees**: 1,233
+* **Average Age**: 37
 
-**High-Level Metrics (Consolidated)**
-* **Total Patients**: 9,216
-* **Avg. Wait Time**: 35.3 Minutes
-* **Pat. Sat. Score**: 4.99 (Lower than the April monthly average)
-* **No. of Patients Referred**: 3,816
-* **Within Target Rate**: 61.68%
-
-**Consolidated View**
 ![Dashboard Overview](images/consolidatedview.png)
-
-**Monthly View**
-![Dashboard Overview](images/monthlyview1.png)
 
 # Insights Deep Dive
 ### Volume Analysis
