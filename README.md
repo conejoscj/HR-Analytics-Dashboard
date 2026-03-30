@@ -28,25 +28,25 @@ The organization currently has **1,470** employees with an overall **Attrition R
 * **Active Employees**: 1,233
 * **Average Age**: 37
 
-![Dashboard Overview](images/hr.dashboard.png)
+![Dashboard Overview](images/hr.dashboard2.png)
 
 # Insights Deep Dive
 ### Department Analysis: R&D as the Primary Attrition Driver
 * The R&D department has the highest attrition with **133** employees leaving, followed by Sales (**92**).
 * R&D represents more than half of the total company turnover. HR needs to investigate if this is due to high-pressure environments or uncompetitive pay in technical roles.
 
-![Dashboard Overview](images/hr.departmentanalysis.png)
+![Dashboard Overview](images/hr.department2.png)
 
 ### Age Group Analysis: High Turnover in Young Professionals
   * The **25–34** age group has the highest number of departures (**112 employees**).
   * This group makes up nearly **47%** of total attrition. Younger employees are likely leaving for better career growth opportunities elsewhere.
-![Dashboard Overview](images/hr.agegroup.png)
+![Dashboard Overview](images/hr.agegroup2.png)
 
 ### Education Analysis: Life Sciences and Medical Fields
 * Employees with Life Sciences (**89**) and Medical (**63**) backgrounds are the most likely to leave.
 * There is a high demand for these skills in the market. The company may be losing specialized talent to competitors.
   
-![Dashboard Overview](images/hr.educationanalysis.png)
+![Dashboard Overview](images/hr.education2.png)
 
 ### Role & Satisfaction: Low Ratings in Laboratory and Sales
 * Laboratory Technicians and Sales Executives have some of the highest counts of "Level 1" (lowest) satisfaction scores.
